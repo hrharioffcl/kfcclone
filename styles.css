@@ -1,0 +1,232 @@
+#startorder
+{
+    background-color:#D20A2E;
+    color:#ffffff;
+    border-style: hidden;
+    border-radius: 50px;
+    padding:10px  30px;
+    
+}
+
+ .head a
+ {
+  color: #343434;
+  font: 1em sans-serif;
+  text-decoration: none;
+ }
+p
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: lighter;
+color: #343434;
+
+}
+
+.container{
+  display: flex;
+flex-wrap: nowrap;
+gap: 20px;
+justify-content: center;
+max-width: 1300px;
+box-sizing: border-box;
+}
+.smallgrid{
+  
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  text-align: center;
+  gap: 20px;
+ 
+  
+}
+.smallgrid img{
+  width: 300px;
+ 
+
+
+ 
+  
+}
+.largeimage{
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: c */
+text-align: center;
+max-width: 600px;;
+
+
+}
+.smallgrid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-top: 30px;
+max-width: 1300px;
+text-align: center;
+}
+.smallgrid2 img{
+  width:300px;
+
+}
+.container2{
+  display: flex;
+  flex-wrap: nowrap;
+gap: 20px;
+  justify-content: center;
+  max-width: 1300px;
+
+}
+
+.smallgrid3{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-top: 30px;
+max-width: 1300px;
+text-align: center;
+
+
+
+}
+.smallgrid3 img{
+  width:300px;
+}
+
+.viewall img{
+  width: 640px;
+  justify-content: right;
+  
+
+  margin-top: 30px;
+ 
+
+}
+
+
+.containerdeal{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+gap: 10px;
+text-align: center;
+align-items: center;
+flex-wrap: nowrap;
+max-width: 1300px;
+margin-left: 140px;
+
+
+}
+.deal {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(235, 232, 232);
+
+
+  padding: 1px;
+ 
+  text-align: center; */
+  box-sizing: border-box;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+   font-size: larger; */
+  border-bottom: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0);
+  
+
+}
+.deal button{
+  background-color: rgb(0, 0, 0);
+  padding: 15px 45px;
+  color: antiquewhite;
+  border-radius: 20px;
+  border-style: hidden
+  
+
+
+}
+
+.deal a {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+  color: black;
+}
+.minorder p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+  color: black;
+}
+
+
+
+
+
+.footercontainer{
+  margin-top: 30px;
+ display: flex;
+  padding: 100px;
+  background-color: #1f1e24;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  max-width: 1300px;
+
+
+ 
+
+}
+.footimg img{
+
+  width: 100px;
+  align-items: center;
+  
+}
+
+.kfcindia{
+
+
+}
+
+.list{
+
+
+  list-style:none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+
+
+}
+.footerheading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+.location a{
+  color: rgb(255, 255, 255);
+  font-family:sans-serif;
+  font-size: medium;
+
+}
+.location img{
+width: 20px;
+}
+.app img{
+width: 90px;
+}
+
+.hehe{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+background-color: white;
+}
